@@ -44,8 +44,8 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: 'Customer testimonials',
-    paragraph: 'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.'
+    title: 'Our Mission & Plan',
+    paragraph: 'We want to make this world better than we found it, our mission is to guide, advice and support projects trough a platform where anyone can be an active. Anyone can be part of this, we developed an internal and external system where you can buy WAPs to support peoples different projects'
   };
 
   return (
@@ -57,54 +57,36 @@ const Testimonial = ({
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
-
             <div className="tiles-item reveal-from-right" data-reveal-delay="200">
               <div className="tiles-item-inner">
-                <div className="testimonial-item-content">
+                <div className="">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                    <h4>1. Founding as a Platform</h4>
+                    Trough our platform you can support people's projects with the internal system we have. You support them by acquiring WAPs, we email you the progress for the different projects that you support so you can have everything updated.
                       </p>
                 </div>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Roman Level</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
-                  </span>
-                </div>
+
               </div>
             </div>
 
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
-                <div className="testimonial-item-content">
+                <div className="">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                    <h4>2. WAPs as NFTs</h4>
+                    As seen on the last step. We made it happen. NFTs gave us the accesibility to make the entire platform tokenization. With this system we can transfer you different internal stock actions 'WAPs' so you can support the projects that we are supporting. Also, you can exchange different WAPs coins with other users, this means opportunities for everyone.
                       </p>
-                </div>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Diana Rynzhuk</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
-                  </span>
                 </div>
               </div>
             </div>
 
             <div className="tiles-item reveal-from-left" data-reveal-delay="200">
               <div className="tiles-item-inner">
-                <div className="testimonial-item-content">
+                <div className="">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                  <h4>3. WAPs as Cryptocurrency</h4>
+                    We delivered a huge quantity of WAPs and we found the way to make it a Cryptocurrency. Yes, it is supported by BlockChain it means that you can see every transaction that is made in our platform and out of it.
                       </p>
-                </div>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Ben Stafford</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
-                  </span>
                 </div>
               </div>
             </div>

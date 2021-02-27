@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import ButtonGroup from '../elements/ButtonGroup';
@@ -52,7 +52,7 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                We are an international foundation for startups, self-made projects & entrepreneurs that want to make a better 🌍.
+                We are an international foundation for startups, self-made projects & entrepreneurs that want to make a better <span role='img' aria-label='world'>🌍</span>.
                 </p>
               <div className='container-md'>
                 <h3 className='mt-2 mb-16 reveal-from-bottom' data-reveal-delay='600'>Protectors today</h3>
